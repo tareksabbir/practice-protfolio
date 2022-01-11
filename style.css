@@ -2,26 +2,31 @@ body {
   font-family: "poppins", sans-serif;
 }
 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .color-span {
   color: #654ea3;
 }
 
-section {
+.flexibale-container {
   display: flex;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding: 5rem;
+  height: fit-content;
 }
 
 .half-width {
   width: 50%;
   padding-left: 3rem;
+  height: auto;
 }
 
+.border {
+  border-left: 0.5rem solid slateblue;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
 .half-width img {
-  width: 90%;
+  width: 100%;
 }
 
 .half-width a {
@@ -36,10 +41,15 @@ section {
 }
 
 .dream-big {
-  padding: 6rem;
-  background: whitesmoke;
+  padding: 5rem;
+  background: white;
 }
 
 .dream-big .half-width img {
   margin-top: 4rem;
+}
+
+.experiance-area h1 {
+  color: #4e54c8;
+  text-align: center;
 }
